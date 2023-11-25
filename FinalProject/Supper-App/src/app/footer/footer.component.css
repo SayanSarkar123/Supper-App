@@ -1,0 +1,37 @@
+.footer{
+    bottom: 0;
+    position: fixed;   
+    z-index: 1;
+    background-color: #001d3d;   
+    width: 93.8%;
+    margin-inline: auto;
+    height:14%;
+    display: grid; 
+
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.icons{
+    padding-top: 0.7rem;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:39%;
+    
+
+}
+.icon-name{
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:35%;
+
+}

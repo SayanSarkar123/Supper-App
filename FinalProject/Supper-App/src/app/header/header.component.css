@@ -1,0 +1,126 @@
+
+ 
+  
+  /* :root{
+    --primary--text--color:#183b56;
+    --secondary--text--color:#577592;
+    --accent--color:#2294ed;
+    --accent--color--dark:#1d69a3;
+    --padding--inline--section:20px;
+
+  } */
+  
+  .tittle1{
+    font-family:'roboto',sans-serif;
+    color: #ee0e98;
+  } 
+  .tittle2{
+    font-family:'roboto',sans-serif;
+    color: #e36414;
+  } 
+ 
+  h1{
+    font-size: 3rem;
+    font-family:'roboto',sans-serif ;
+  }
+  p{
+    font-family: 'roboto',sans-serif;
+    font-size: 1.25rem;
+    color:#183b56;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+    color: #183b56;
+  }
+  a:hover{
+    color: #1d69a3;
+  }
+  .container{
+    margin: 0px;
+    font-family: 'Poppins',sans-serif;
+    background-color: white;   
+    color:#183b56;
+    position:fixed ;
+    top:0%;    
+    z-index: 1;
+    width: 93.8%;
+    /* margin-inline: auto;  */
+    padding: 15px;
+    
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+  }
+  ul{
+    list-style: none;
+    color: #183b56;   
+  }
+  .button1{
+    background-color: #2294ed;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: white !important;
+    box-shadow: 1px,0,2px #1d69a3;
+    transition: 0.3s ease-in-out;
+  }
+  .button1:hover{
+    background-color: #1d69a3;
+  }
+  .button2{
+    border: 0.5px solid #577592;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 9px 19px;
+    color: #183b56
+  }
+  .button:hover{
+    border-color: #2294ed;
+    color: #2294ed !important;
+  }
+  /* nav-bar section */
+  .nav-bar{  
+    transition: all ease 2s;
+    justify-content: space-between;   
+    box-shadow: 0 1px 1px  gray;
+       
+  }
+  .nav-bar img{
+    margin-top: 0.5rem;
+     width: 200px;
+     height:8rem;
+  }
+  .nav-bar.link{
+    flex-basis: 730px;
+  }
+  .nav-bar ul {
+    justify-content: end;
+    gap:40px;   
+  }
+  
+  .nav-bar .input-filed{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-bar .input-filed i{
+    padding-right: 10px;
+  }
+  .nav-bar input{   
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .5rem ;
+    padding-left: 1rem;
+    width: 100%;
+    border-radius: 20px;
+    color: #183b56;
+    border: 0.5px solid #577592;
+  }
+  
+  
+  
+  
